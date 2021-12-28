@@ -1,0 +1,82 @@
+h1,
+p {
+  font-family: Lato;
+}
+.digital-border {
+  padding: 12px;
+  margin: 12px;
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+}
+.digital-time {
+  padding: 12px;
+  margin: 12px;
+  height: 32px;
+  width: 32px;
+  background-color: beige;
+  color: black;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer-circle {
+  height: 20rem;
+  width: 20rem;
+  background-color: black;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+.inner-circle {
+  height: 19rem;
+  width: 19rem;
+  background-color: beige;
+  border-radius: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border: 2px solid yellow;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  border-radius: 10px;
+  background: rgb(40, 41, 41);
+  transform-origin: bottom;
+  z-index: 1;
+  align-self: center;
+  left: 148px;
+}
+
+.hour {
+  height: 25%;
+  width: 1.8%;
+  top: 80px;
+  background: red !important;
+  opacity: 0.5;
+}
+
+.minute {
+  height: 40%;
+  width: 1.8%;
+
+  top: 35px;
+  opacity: 0.5;
+}
+
+.second {
+  height: 45%;
+
+  width: 1%;
+  top: 20px;
+  opacity: 0.5;
+}
